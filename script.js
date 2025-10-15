@@ -1,9 +1,9 @@
-let fahrenheit = prompt('Zadej stupně Fahreiheita:');
+let fahrenheit = prompt("Zadej stupně Fahreiheita:");
 
 let celsius = (fahrenheit - 32) * 5 / 9;
 
 
-document.body.innerHTML += fahrenheit + ' stupňů Fahrenheita je ' + celsius.toFixed(2) + ' stupňů celsia.';
+document.body.innerHTML += "<br>" + fahrenheit + "°F je " + celsius.toFixed(2) + "°C.";
 
 
 // Zadání
