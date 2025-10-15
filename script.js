@@ -1,4 +1,4 @@
-let fahrenheit = prompt("Zadej stupně Fahreiheita:");
+let fahrenheit = Number(prompt("Zadej stupně Fahreiheita:"));
 
 let celsius = (fahrenheit - 32) * 5 / 9;
 
